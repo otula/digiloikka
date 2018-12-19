@@ -1,0 +1,116 @@
+/**
+ * Copyright 2018 Tampere University of Technology, Pori Department
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * list of classes and identifiers used for the event filters UI
+ */
+
+/**
+* "Do Filter" button
+*/
+#events-filters-ui-do_filter {
+ background-image: url("data:image/png;base64,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");
+ width: 50px;
+ height: 50px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ border: solid blue;
+ padding: 0px;
+ display: block;
+ margin: 0 auto;
+}
+
+/**
+* List of places (container)
+*/
+#events-filters-ui-places_list {
+ padding: 10px;
+ column-width: 150px;
+}
+
+/**
+* List of keywords (container)
+*/
+#events-filters-ui-keywords_list {
+ padding: 10px;
+ column-width: 150px;
+}
+
+/**
+* input selector/checkbox for a place
+*/
+.events-filters-ui-place_selector {
+ /* nothing here */
+}
+
+/**
+* label of input selector/checkbox for a place
+*/
+.events-filters-ui-place_selector-label {
+	display: block;
+  font-size: 0.9em;
+}
+
+/**
+* input selector/checkbox for a keyword
+*/
+.events-filters-ui-keyword_selector {
+ /* nothing here */
+}
+
+/**
+* label of input selector/checkbox for a keyword
+*/
+.events-filters-ui-keyword_selector-label {
+	display: block;
+  font-size: 0.9em;
+}
+
+/**
+* text filter input field
+*/
+#events-filters-ui-text {
+ /* nothing here */
+}
+
+/**
+* provider name filter input field
+*/
+#events-filters-ui-provider_name {
+ /* nothing here */
+}
+
+/**
+* start/end date container element
+*/
+#events-filters-ui-date_container {
+ /* nothing here */
+}
+
+/**
+* start date input field
+*/
+#events-filters-ui-start_date {
+ /* nothing here */
+}
+
+/**
+* end date input field
+*/
+#events-filters-ui-end_date {
+ /* nothing here */
+}

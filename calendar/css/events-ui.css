@@ -1,0 +1,239 @@
+/**
+ * Copyright 2018 Tampere University of Technology, Pori Department
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * list of classes and identifiers used for the event UI
+ */
+
+/**
+ * toolbar
+ */
+.events-ui-events_toolbar {
+	text-align: center;
+}
+
+/**
+ * the last available page text
+ */
+.events-ui-last_page {
+	font-size: 20px;
+	display: inline-block;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+/**
+ * Page number divider (/)
+ */
+.events-ui-page_number_divider {
+	font-size: 15px;
+	display: inline-block;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+/**
+ * currently active page text
+ */
+.events-ui-current_page {
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+/**
+ * previous (older) events button
+ */
+.events-ui-events_previous {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: transparent;
+	border-right: 15px solid blue;
+	background-color: transparent;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+/**
+ * next (newer) events button
+ */
+.events-ui-events_next {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: transparent;
+	border-left: 15px solid blue;
+	background-color: transparent;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+/**
+ * list of events
+ */
+#events-ui-events_list {
+  /* nothing here */
+}
+
+/**
+ * container for data
+ */
+.events-ui-data_container {
+  padding: 10px;
+}
+
+/**
+ * header (container) field for data
+ */
+.events-ui-data_header {
+  /* nothing here */
+}
+
+/**
+ * event name field
+ */
+.events-ui-data_header-name {
+  font-weight: bold;
+}
+
+/**
+ * event date field
+ */
+.events-ui-data_header-date {
+  font-style: italic;
+}
+
+/**
+ * event short description field
+ */
+.events-ui-data_header-short_description {
+  /* nothing here */
+}
+
+/**
+ * body/content (container) field for data
+ */
+.events-ui-data_body {
+  min-height: 110px; // make sure the image fits
+}
+
+/**
+ * event image field
+ */
+.events-ui-data_body-image {
+  width: 25%;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+	margin: 10px
+}
+
+/**
+ * event description field
+ */
+.events-ui-data_body-description {
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+	white-space: pre-wrap;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+/**
+ * event location/extra info field
+ */
+.events-ui-data_body-location_extra_info {
+  /* nothing here */
+}
+
+/**
+ * event info URL field
+ */
+.events-ui-data_body-info_url {
+  /* nothing here */
+}
+
+/**
+ * event provider name field
+ */
+.events-ui-data_body-provider_name {
+  /* nothing here */
+}
+
+/**
+ * event provider email field
+ */
+.events-ui-data_body-provider_email {
+  /* nothing here */
+}
+
+/**
+ * body element is in collapsed state
+ */
+.events-ui-data_body-collapsed {
+	display: none;
+}
+
+/**
+ * body element is in expanded state
+ */
+.events-ui-data_body-expanded {
+	display: block;
+}
+
+/**
+ * header's "collapse body" button
+ */
+.events-ui-data_header-collapse {
+	float: right;
+	width: 0;
+	height: 0;
+	border-top: transparent;
+	border-bottom: 20px solid blue;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	background-color: transparent;
+	padding: 0px;
+}
+
+/**
+ * header's "expand body" button
+ */
+.events-ui-data_header-expand {
+	float: right;
+	width: 0;
+	height: 0;
+	border-top: 20px solid blue;
+	border-bottom: transparent;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	background-color: transparent;
+	padding: 0px;
+}
+
+/**
+ * horizontal divider placed between listed events
+ */
+.events-ui-data_container-divider {
+		/* nothing here */
+}
