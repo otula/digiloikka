@@ -37,7 +37,5 @@ The lines do not need to be one after another, and can be in any order, but only
 # Libraries #
 
 JavaScript Libraries included in this project:
-- JQuery, https://jquery.com
 - JQueryUI/Datepicker translations from https://github.com/jquery/jquery-ui/tree/master/ui/i18n
 - Licenses: https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt (JQueryUI)
-
