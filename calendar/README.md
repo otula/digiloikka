@@ -88,4 +88,13 @@ The issues in the Satakunta Events API may have been fixed, so check the appropr
 - If no end date (data-events-endDate) is given, the (default) end date is hardcoded to be start date + 1 month. The Satakunta Events API gives data for the current day only if only start or end is given, which makes it impossible to select open-ended time intervals.
 - The UI layout for provider name and text search could be more clear. Currently, it is difficult to figure out which input field is provider name and which is text search when both fields are available as search terms.
 - There is no paging for keywords or locations on the filters, and the maximum number of choises is hardcoded in the javascript (and can be overridden by script attribute value). In general, there should not be excessive amount of keywords/locations available on the API, but if there are, the the extra choises are simply not listed.
+- The JQueryUI CSS file included in the project contains the entire CSS stylesheet. Not all of this is required, and the size could be made smaller by including only the require parts (datepicker). Similarly, the JQuery library contains all components (only Ajax is required).
+
+# Libraries #
+
+JavaScript Libraries included in this project:
+- JQuery, https://jquery.com
+- JQueryUI, https://jqueryui.com
+- JQueryUI/Datepicker translations from https://github.com/jquery/jquery-ui/tree/master/ui/i18n
+- Licenses: https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt (JQueryUI), https://jquery.org/license (JQuery)
 

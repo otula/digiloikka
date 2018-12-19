@@ -32,3 +32,12 @@ The lines do not need to be one after another, and can be in any order, but only
 # Known problems, issues and possible bugs #
 
 - There is no datepicker on the admin page. The user must manually add the date in ISO8601 format.
+- The JQueryUI CSS file included in the project contains the entire CSS stylesheet. Not all of this is required, and the size could be made smaller by including only the require parts (datepicker).
+
+# Libraries #
+
+JavaScript Libraries included in this project:
+- JQuery, https://jquery.com
+- JQueryUI/Datepicker translations from https://github.com/jquery/jquery-ui/tree/master/ui/i18n
+- Licenses: https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt (JQueryUI)
+
