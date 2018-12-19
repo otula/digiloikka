@@ -7,7 +7,7 @@ The adaptation contains a single PHP file (event-calendar.php), which constructs
 The assets directory contains the actual JavaScript and CSS files:
 - js/admin.js constains functions for the admin page.
 
-The assets/calendar directory contains the Javascript/CSS files from the Event Calendar, see the calendar documentation for more information (or the file comments).
+The assets/calendar directory contains the Javascript/CSS files from the Event Calendar, see the calendar documentation for more information (or the file comments):
 - Note: lib/i18n/datepicker-fi.js only contains Finnish localization of the JQuery UI datepicker. If you are planning to use the datepicker in some other language, you need to download an appropriate localization file from the JQuery GitHub (https://github.com/jquery/jquery-ui/tree/master/ui/i18n) and include it in the i18n directory. All files in the i18n directory will be automatically included by the PHP file.
 - The JQuery library files have been removed from the calendar directory as these files are by default already bundled with Wordpress.
 

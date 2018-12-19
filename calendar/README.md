@@ -11,8 +11,8 @@ You can use these styles or define your own.
 All identifiers, classes, etc. used in JavaScript are defined in the example files.
 
 Files:
-	- events-filters-ui.css, CSS styles for the filters / search parameter selectors
-	- events-ui.css, CSS styles for the event calendar (event list printed on the web page)
+- events-filters-ui.css, CSS styles for the filters / search parameter selectors
+- events-ui.css, CSS styles for the event calendar (event list printed on the web page)
 
 lib directory contains the default stylesheet and images required for JQuery (mainly for the datepicker component). If you are not planning to use the datapicker, these files are not needed.
 
@@ -22,11 +22,11 @@ lib directory contains the default stylesheet and images required for JQuery (ma
 Contains JavaScript files for the event calender and calendar filters.
 
 Files:
-	- events.js, JavaScript file for Event API. Requires: JQuery.
-	- events-ui.js, main file for event list functions. Requires: events.js.
-	- keywords.js, JavaScript file for Keyword API. Requires: JQuery.
-	- places.js, JavaScript file for Place API. Requires: JQuery.
-	- events-filters-ui.js, main file for event filter functions. Requires: events-ui.js, keywords.js, places.js, JQueryUI+stylesheet+translations file (if datepicker is used).
+- events.js, JavaScript file for Event API. Requires: JQuery.
+- events-ui.js, main file for event list functions. Requires: events.js.
+- keywords.js, JavaScript file for Keyword API. Requires: JQuery.
+- places.js, JavaScript file for Place API. Requires: JQuery.
+- events-filters-ui.js, main file for event filter functions. Requires: events-ui.js, keywords.js, places.js, JQueryUI+stylesheet+translations file (if datepicker is used).
 
 lib directory contains libraries required for JQuery (core and an example translation file). If you are not planning to use the datapicker or filters in general, the translation file is not required.
 
